@@ -1,0 +1,132 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.attribution {
+    color: white;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+.attribution a {
+  color:  hsl(215, 51%, 70%);;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+main {
+  background-color: hsl(216, 50%, 16%);
+  width: 300px;
+  max-height: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: "Outfit";
+  box-shadow: 10px 10px 60px hsl(216, 79%, 4%);
+}
+.main-image{
+    height: 50%;
+    width: 100%;
+}
+.equilibrium {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.equilibrium:hover {
+  cursor: pointer;
+  background-color: hsl(178, 100%, 50%);
+}
+
+.view{
+    position: absolute;
+    background-color: hsl(178, 100%, 50%);
+
+}
+
+h1 {
+  margin: 15px 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h1:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+.description {
+  margin: 15px 0;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+.flex-content {
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.flex-content .price {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eth {
+  padding-left: 10px;
+  font-weight: 600;
+}
+.flex-content .time-left {
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time {
+  padding-left: 10px;
+  font-weight: 300;
+}
+
+.footer {
+  display: flex;
+  border-top: solid hsl(215, 32%, 27%);
+  padding: 10px 0;
+
+  align-items: center;
+}
+
+.footer img,
+p {
+  margin-top: 10px;
+}
+
+.footer-image {
+  width: 30px;
+  border: solid white 0.5px;
+  border-radius: 50px;
+}
+
+.footer .first {
+  padding-left: 10px;
+  color: hsl(215, 51%, 70%);
+}
+.footer span {
+  color: white;
+  padding-left: 5px;
+}
+
+.footer span:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
